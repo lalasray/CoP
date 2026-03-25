@@ -21,7 +21,7 @@ OUTPUT_DIR = Path("model_outputs")
 MODELS_DIR = OUTPUT_DIR / "models"
 PREDICTIONS_DIR = OUTPUT_DIR / "predictions"
 X_CM_PER_CELL = 2.0
-Y_CM_PER_CELL = 2.1
+Y_CM_PER_CELL = 0.21
 
 TARGET_COLUMNS = ["cop_x", "cop_y"]
 PRESSURE_SUMMARY_COLUMNS = [

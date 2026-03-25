@@ -26,7 +26,7 @@ PREDICTIONS_DIR = OUTPUT_DIR / "predictions"
 SEED = 42
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 X_CM_PER_CELL = 2.0
-Y_CM_PER_CELL = 2.1
+Y_CM_PER_CELL = 0.21
 IMU_AXIS_COLUMNS = [
     "IMU_S1_acc_x",
     "IMU_S1_acc_y",
