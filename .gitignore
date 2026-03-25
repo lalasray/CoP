@@ -1,2 +1,7 @@
 
 /Data
+*.csv
+*.joblib
+*.pt
+/scripts/__pycache__
+*.json

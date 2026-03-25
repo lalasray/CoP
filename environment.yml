@@ -1,0 +1,12 @@
+name: cop-visualization
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ffmpeg
+  - matplotlib
+  - numpy
+  - pandas
+  - pillow
+  - scikit-learn
+  - pytorch
